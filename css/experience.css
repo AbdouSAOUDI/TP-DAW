@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.container {
+    width: 736px;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+
+/**********************************/
+
+header {
+    height: 70px;
+    background-color: azure;
+}
+
+header .container {
+    padding: 0;
+}
+
+header img {
+    height: 50px;
+    margin: 10px 0;
+}
+
+header ul {
+    height: 70px;
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 24px 8px;
+}
+
+header ul .checked {
+    color: blue;
+    font-weight: bolder;
+    border-bottom: 4px solid blue;
+}
+
+
+/**********************************/
+
+article {
+    margin: 16px 0 8px 0;
+}
+
+article h1 {
+    text-align: center;
+}
+
+
+/**********************************/
+
+.experience_section {
+    margin: 16px 0 8px 0;
+}
+
+.experience_section .container hr {
+    margin: 16px 0;
+}
+
+.experience_section p {
+    margin-top: 4px;
+}
+
+
+/**********************************/
+
+footer {
+    overflow: hidden;
+    background-color: azure;
+}
+
+footer .container {
+    padding: 0;
+}
+
+footer img {
+    height: 70px;
+    margin: 10px 0;
+}
+
+footer .right_footer {
+    float: right;
+}
+
+footer .right_footer ul {
+    height: 70px;
+    list-style: none;
+}
+
+footer .right_footer ul li {
+    display: inline-block;
+    padding: 12px 8px;
+}
+
+footer .right_footer ul .checked {
+    color: blue;
+    font-weight: bolder;
+    border-top: 4px solid blue;
+}
+
+footer .right_footer p {
+    display: inline-block;
+    margin-bottom: 12px;
+}

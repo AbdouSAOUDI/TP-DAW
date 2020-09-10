@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.container {
+    width: 736px;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+
+/**********************************/
+
+header {
+    height: 70px;
+    background-color: azure;
+}
+
+header .container {
+    padding: 0;
+}
+
+header img {
+    height: 50px;
+    margin: 10px 0;
+}
+
+header ul {
+    height: 70px;
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 24px 8px;
+}
+
+header ul .checked {
+    color: blue;
+    font-weight: bolder;
+    border-bottom: 4px solid blue;
+}
+
+
+/**********************************/
+
+article {
+    margin: 16px 0 8px 0;
+}
+
+article .container {
+    overflow: hidden;
+}
+
+article .left_article {
+    height: 100px;
+    margin-right: 32px;
+    float: left;
+}
+
+article .left_article img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+article .right_article {
+    float: left;
+    padding: 25px 0;
+}
+
+article .right_article h3 {
+    font-weight: lighter;
+}
+
+
+/**********************************/
+
+section {
+    margin: 16px 0 0 0;
+}
+
+section .item {
+    padding: 8px 12px;
+}
+
+section .item p {
+    width: 100px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+section .item input {
+    width: 588px;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+
+/**********************************/
+
+.about_section p {
+    margin-top: 8px;
+}
+
+
+/**********************************/
+
+.education_section ul,
+.skills_section ul {
+    padding: 0 0 0 16px;
+    list-style: square;
+}
+
+.education_section ul li,
+.skills_section ul li {
+    margin-top: 8px;
+}
+
+.education_section ul p {
+    display: inline-block;
+}
+
+.education_section ul .education_item_title {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/**********************************/
+
+footer {
+    overflow: hidden;
+    background-color: azure;
+    margin-top: 16px;
+}
+
+footer .container {
+    padding: 0;
+}
+
+footer img {
+    height: 70px;
+    margin: 10px 0;
+}
+
+footer .right_footer {
+    float: right;
+}
+
+footer .right_footer ul {
+    height: 70px;
+    list-style: none;
+}
+
+footer .right_footer ul li {
+    display: inline-block;
+    padding: 12px 8px;
+}
+
+footer .right_footer ul .checked {
+    color: blue;
+    font-weight: bolder;
+    border-top: 4px solid blue;
+}
+
+footer .right_footer p {
+    display: inline-block;
+    margin-bottom: 12px;
+}
