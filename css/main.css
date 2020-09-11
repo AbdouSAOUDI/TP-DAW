@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: 736px;
+    width: 768px;
     padding: 8px;
     margin: 0 auto;
 }
@@ -51,86 +51,13 @@ header ul .checked {
 
 /**********************************/
 
-article {
-    margin: 16px 0 8px 0;
+.edit_btn {
+    float: right;
 }
 
-article .container {
-    overflow: hidden;
-}
-
-article .left_article {
-    height: 100px;
-    margin-right: 32px;
-    float: left;
-}
-
-article .left_article img {
-    height: 100%;
-    border-radius: 50%;
-}
-
-article .right_article {
-    float: left;
-    padding: 25px 0;
-}
-
-article .right_article h3 {
-    font-weight: lighter;
-}
-
-
-/**********************************/
-
-section {
-    margin: 16px 0 0 0;
-}
-
-section .item {
-    padding: 8px 12px;
-}
-
-section .item p {
-    width: 100px;
-    font-weight: bold;
-    display: inline-block;
-}
-
-section .item input {
-    width: 588px;
-    padding: 3px 8px;
-    border-radius: 6px;
-}
-
-
-/**********************************/
-
-.about_section p {
-    margin-top: 8px;
-}
-
-
-/**********************************/
-
-.education_section ul,
-.skills_section ul {
-    padding: 0 0 0 16px;
-    list-style: square;
-}
-
-.education_section ul li,
-.skills_section ul li {
-    margin-top: 8px;
-}
-
-.education_section ul p {
-    display: inline-block;
-}
-
-.education_section ul .education_item_title {
-    width: 100px;
-    display: inline-block;
-    font-weight: bold;
+.edit_btn img {
+    height: 11px;
+    padding: 3px 10px;
 }
 
 
@@ -172,6 +99,7 @@ footer .right_footer ul .checked {
 }
 
 footer .right_footer p {
-    display: inline-block;
+    display: block;
+    float: right;
     margin-bottom: 12px;
 }

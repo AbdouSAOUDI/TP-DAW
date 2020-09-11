@@ -1,0 +1,81 @@
+article {
+    margin: 16px 0 8px 0;
+}
+
+article .container {
+    overflow: hidden;
+}
+
+article .left_article {
+    height: 100px;
+    margin-right: 32px;
+    float: left;
+}
+
+article .left_article img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+article .right_article {
+    float: left;
+    padding: 25px 0;
+}
+
+article .right_article h3 {
+    font-weight: lighter;
+}
+
+
+/**********************************/
+
+section {
+    margin: 16px 0 0 0;
+}
+
+section .item {
+    padding: 8px 0;
+}
+
+section .item p {
+    width: 90px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+section .item input {
+    width: 600px;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+
+/**********************************/
+
+.about_section p {
+    margin-top: 8px;
+}
+
+
+/**********************************/
+
+.education_section ul,
+.skills_section ul {
+    padding: 0 0 0 16px;
+    list-style: square;
+}
+
+.education_section ul li,
+.skills_section ul li {
+    margin-top: 8px;
+}
+
+.education_section ul p {
+    display: inline-block;
+}
+
+.education_section ul .education_item_title {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
